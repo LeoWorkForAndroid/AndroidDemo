@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AndroidDemo.iml" filepath="$PROJECT_DIR$/AndroidDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/databinding/app.iml" filepath="$PROJECT_DIR$/databinding/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mvvp/mvvp.iml" filepath="$PROJECT_DIR$/mvvp/mvvp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rxjava/rxjava.iml" filepath="$PROJECT_DIR$/rxjava/rxjava.iml" />
+    </modules>
+  </component>
+</project>
