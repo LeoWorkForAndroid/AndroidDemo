@@ -8,7 +8,13 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/MaterialDesign" />
+            <option value="$PROJECT_DIR$/Reflect" />
+            <option value="$PROJECT_DIR$/SocketClient" />
+            <option value="$PROJECT_DIR$/SocketServer" />
+            <option value="$PROJECT_DIR$/ThreadPoolExecutor" />
             <option value="$PROJECT_DIR$/databinding" />
+            <option value="$PROJECT_DIR$/mvp" />
             <option value="$PROJECT_DIR$/mvvp" />
             <option value="$PROJECT_DIR$/rxjava" />
           </set>
