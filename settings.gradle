@@ -1,1 +1,2 @@
-include ':databinding', ':mvvp', ':rxjava', ':mvp', ':MaterialDesign', ':SocketClient', ':SocketServer', ':ThreadPoolExecutor', ':Reflect'
+include ':databinding', ':mvvp', ':rxjava', ':mvp', ':MaterialDesign', ':SocketClient', ':SocketServer', ':ThreadPoolExecutor', ':Reflect', ':JavaBase'
+
