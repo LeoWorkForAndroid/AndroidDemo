@@ -30,21 +30,17 @@ public class MainActivity extends AppCompatActivity {
         mBinding = DataBindingUtil.setContentView(this, R.layout.activity_main);
 
         //绑定变量
-        userBean = new UserBean("张三", 25);
+        userBean = new UserBean("张三",26,"18012092538",0,"http://www.baidu.com");
 
         //1.数据绑定
         //bean绑定
         mBinding.setUser(userBean);
         //数组绑定
         String[] arrays={"字符串1","字符串2"};
-        mBinding.setArray(arrays);
+        //mBinding.setArray(arrays);
 
 
         //2.事件方法绑定
 
-
     }
-
-
-
 }

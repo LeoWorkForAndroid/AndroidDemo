@@ -3,13 +3,16 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AndroidDemo.iml" filepath="$PROJECT_DIR$/AndroidDemo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/JavaBase/main.iml" filepath="$PROJECT_DIR$/JavaBase/main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaBase/JavaBase.iml" filepath="$PROJECT_DIR$/JavaBase/JavaBase.iml" />
       <module fileurl="file://$PROJECT_DIR$/MaterialDesign/MaterialDesign.iml" filepath="$PROJECT_DIR$/MaterialDesign/MaterialDesign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MediaRecorder/MediaRecorder.iml" filepath="$PROJECT_DIR$/MediaRecorder/MediaRecorder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MediaRecorderStart/MediaRecorderStart.iml" filepath="$PROJECT_DIR$/MediaRecorderStart/MediaRecorderStart.iml" />
       <module fileurl="file://$PROJECT_DIR$/Reflect/Reflect.iml" filepath="$PROJECT_DIR$/Reflect/Reflect.iml" />
       <module fileurl="file://$PROJECT_DIR$/SocketClient/SocketClient.iml" filepath="$PROJECT_DIR$/SocketClient/SocketClient.iml" />
       <module fileurl="file://$PROJECT_DIR$/SocketServer/SocketServer.iml" filepath="$PROJECT_DIR$/SocketServer/SocketServer.iml" />
       <module fileurl="file://$PROJECT_DIR$/ThreadPoolExecutor/ThreadPoolExecutor.iml" filepath="$PROJECT_DIR$/ThreadPoolExecutor/ThreadPoolExecutor.iml" />
       <module fileurl="file://$PROJECT_DIR$/databinding/databinding.iml" filepath="$PROJECT_DIR$/databinding/databinding.iml" />
+      <module fileurl="file://H:\AndroidDemo\JavaBase\main.iml" filepath="H:\AndroidDemo\JavaBase\main.iml" />
       <module fileurl="file://$PROJECT_DIR$/mvp/mvp.iml" filepath="$PROJECT_DIR$/mvp/mvp.iml" />
       <module fileurl="file://$PROJECT_DIR$/mvvp/mvvp.iml" filepath="$PROJECT_DIR$/mvvp/mvvp.iml" />
       <module fileurl="file://$PROJECT_DIR$/rxjava/rxjava.iml" filepath="$PROJECT_DIR$/rxjava/rxjava.iml" />

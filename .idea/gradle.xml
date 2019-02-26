@@ -10,6 +10,8 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/JavaBase" />
             <option value="$PROJECT_DIR$/MaterialDesign" />
+            <option value="$PROJECT_DIR$/MediaRecorder" />
+            <option value="$PROJECT_DIR$/MediaRecorderStart" />
             <option value="$PROJECT_DIR$/Reflect" />
             <option value="$PROJECT_DIR$/SocketClient" />
             <option value="$PROJECT_DIR$/SocketServer" />

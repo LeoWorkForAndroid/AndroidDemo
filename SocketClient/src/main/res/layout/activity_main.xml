@@ -7,7 +7,7 @@
     tools:context=".MainActivity"
     android:orientation="vertical">
 
-    <androidx.appcompat.widget.AppCompatEditText
+    <android.support.v7.widget.AppCompatEditText
         android:id="@+id/et_message"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -17,24 +17,24 @@
         app:layout_constraintTop_toTopOf="parent" />
 
 
-    <androidx.appcompat.widget.AppCompatButton
+    <android.support.v7.widget.AppCompatButton
         android:id="@+id/btn_connect"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="连接"/>
 
-    <androidx.appcompat.widget.AppCompatButton
+    <android.support.v7.widget.AppCompatButton
         android:id="@+id/btn_send"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="发送"/>
-    <androidx.appcompat.widget.AppCompatButton
+    <android.support.v7.widget.AppCompatButton
         android:id="@+id/btn_disconnect"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="断开"/>
 
-    <androidx.appcompat.widget.AppCompatTextView
+    <android.support.v7.widget.AppCompatTextView
         android:id="@+id/tv_result"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />

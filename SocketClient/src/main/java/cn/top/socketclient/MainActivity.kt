@@ -5,7 +5,7 @@ import android.os.Build.HOST
 import android.os.Build.VERSION_CODES.M
 import android.os.Bundle
 import android.provider.Telephony.Carriers.PORT
-import androidx.appcompat.app.AppCompatActivity
+import android.support.v7.app.AppCompatActivity
 import kotlinx.android.synthetic.main.activity_main.*
 import java.net.Socket
 import java.util.concurrent.Executor
@@ -15,7 +15,6 @@ import android.system.Os.socket
 
 import android.system.Os.socket
 import android.util.Log
-import androidx.fragment.app.FragmentActivity
 import java.io.*
 
 

@@ -23,11 +23,48 @@ public class UserBean extends BaseObservable{
      */
     private int age;
 
+    private String phone;
 
-    public UserBean(String name, int age) {
+    private int gender;
+
+    private String imgUrl;
+
+
+    public  UserBean(String name, int age, String phone, int gender, String imgUrl) {
         this.name = name;
         this.age = age;
+        this.phone = phone;
+        this.gender = gender;
+        this.imgUrl = imgUrl;
     }
+
+    public String getPhone() {
+        return phone;
+    }
+
+    public void setPhone(String phone) {
+        this.phone = phone;
+    }
+
+    public int getGender() {
+        return gender;
+    }
+
+    public void setGender(int gender) {
+        this.gender = gender;
+    }
+
+    public String getImgUrl() {
+        return imgUrl;
+    }
+
+    public void setImgUrl(String imgUrl) {
+        this.imgUrl = imgUrl;
+    }
+
+
+
+
 
     @Bindable
     public String getName() {
@@ -53,6 +90,9 @@ public class UserBean extends BaseObservable{
         return "UserBean{" +
                 "name='" + name + '\'' +
                 ", age=" + age +
+                ", phone='" + phone + '\'' +
+                ", gender='" + gender + '\'' +
+                ", imgUrl='" + imgUrl + '\'' +
                 '}';
     }
 }
