@@ -1,2 +1,2 @@
-include ':databinding', ':mvvp', ':rxjava', ':mvp', ':MaterialDesign', ':SocketClient', ':SocketServer', ':ThreadPoolExecutor', ':Reflect', ':JavaBase', ':MediaRecorder', ':MediaRecorderStart'
+include ':databinding', ':mvvp', ':rxjava', ':mvp', ':MaterialDesign', ':SocketClient', ':SocketServer', ':ThreadPoolExecutor', ':Reflect', ':JavaBase', ':MediaRecorder', ':MediaRecorderStart', ':avintercom', ':CallKit', ':CallLib', ':IMKit', ':IMLib'
 

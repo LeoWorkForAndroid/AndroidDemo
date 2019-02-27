@@ -7,10 +7,8 @@ import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
-import android.content.pm.PackageManager;
 import android.hardware.display.DisplayManager;
 import android.hardware.display.VirtualDisplay;
-import android.media.CamcorderProfile;
 import android.media.MediaRecorder;
 import android.media.projection.MediaProjection;
 import android.media.projection.MediaProjectionManager;
@@ -19,24 +17,18 @@ import android.os.Environment;
 import android.os.Handler;
 import android.os.IBinder;
 import android.os.Message;
-import android.preference.PreferenceManager;
 import android.support.annotation.RequiresApi;
 import android.util.DisplayMetrics;
 import android.util.Log;
 import android.view.WindowManager;
 
 import java.io.File;
-import java.io.IOException;
-import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Calendar;
 import java.util.Collections;
 import java.util.Comparator;
-import java.util.Date;
 import java.util.List;
-import java.util.Timer;
-import java.util.TimerTask;
 
 import static android.util.DisplayMetrics.DENSITY_LOW;
 
@@ -56,6 +48,7 @@ public class ScreenRecordService extends Service {
     private int mScreenDensity;
 
     private String filePathName;
+
 
     Handler mHandler = new Handler() {
 
@@ -77,6 +70,7 @@ public class ScreenRecordService extends Service {
                     }
 
                     mediaRecorder = createMediaRecorder();
+
                     if (mediaRecorder == null) {
                         Log.e(TAG, "mediaRecorder is null!");
                     }
@@ -149,6 +143,8 @@ public class ScreenRecordService extends Service {
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
         Log.i("ScreenRecording", "ScreenRecordService----------------onStartCommand");
+
+
 
         // Listen for broadcasts
         IntentFilter intentFilter = new IntentFilter();
@@ -537,9 +533,17 @@ public class ScreenRecordService extends Service {
                 Log.i(TAG, "screen on");
 
                 mediaRecorder.resume();
+
+
+
             } else if (Intent.ACTION_SCREEN_OFF.equals(action)) {
                 Log.i(TAG, "screen off");
                 mediaRecorder.pause();
+      /*          Intent intent1 = new Intent(getApplicationContext(), SinglePixelActivity.class);
+                intent1.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK );
+
+
+                //startActivity(intent1);*/
             }
         }
     };

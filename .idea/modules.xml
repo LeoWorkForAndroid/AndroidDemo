@@ -3,6 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AndroidDemo.iml" filepath="$PROJECT_DIR$/AndroidDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CallKit/CallKit.iml" filepath="$PROJECT_DIR$/CallKit/CallKit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CallLib/CallLib.iml" filepath="$PROJECT_DIR$/CallLib/CallLib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IMKit/IMKit.iml" filepath="$PROJECT_DIR$/IMKit/IMKit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IMLib/IMLib.iml" filepath="$PROJECT_DIR$/IMLib/IMLib.iml" />
       <module fileurl="file://$PROJECT_DIR$/JavaBase/JavaBase.iml" filepath="$PROJECT_DIR$/JavaBase/JavaBase.iml" />
       <module fileurl="file://$PROJECT_DIR$/MaterialDesign/MaterialDesign.iml" filepath="$PROJECT_DIR$/MaterialDesign/MaterialDesign.iml" />
       <module fileurl="file://$PROJECT_DIR$/MediaRecorder/MediaRecorder.iml" filepath="$PROJECT_DIR$/MediaRecorder/MediaRecorder.iml" />
@@ -11,6 +15,7 @@
       <module fileurl="file://$PROJECT_DIR$/SocketClient/SocketClient.iml" filepath="$PROJECT_DIR$/SocketClient/SocketClient.iml" />
       <module fileurl="file://$PROJECT_DIR$/SocketServer/SocketServer.iml" filepath="$PROJECT_DIR$/SocketServer/SocketServer.iml" />
       <module fileurl="file://$PROJECT_DIR$/ThreadPoolExecutor/ThreadPoolExecutor.iml" filepath="$PROJECT_DIR$/ThreadPoolExecutor/ThreadPoolExecutor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/avintercom/avintercom.iml" filepath="$PROJECT_DIR$/avintercom/avintercom.iml" />
       <module fileurl="file://$PROJECT_DIR$/databinding/databinding.iml" filepath="$PROJECT_DIR$/databinding/databinding.iml" />
       <module fileurl="file://H:\AndroidDemo\JavaBase\main.iml" filepath="H:\AndroidDemo\JavaBase\main.iml" />
       <module fileurl="file://$PROJECT_DIR$/mvp/mvp.iml" filepath="$PROJECT_DIR$/mvp/mvp.iml" />

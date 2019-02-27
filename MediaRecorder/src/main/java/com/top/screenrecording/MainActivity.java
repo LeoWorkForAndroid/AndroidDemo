@@ -48,7 +48,6 @@ public class MainActivity extends Activity {
             android.Manifest.permission.WRITE_EXTERNAL_STORAGE,
             android.Manifest.permission.MOUNT_UNMOUNT_FILESYSTEMS,
             Manifest.permission.CAMERA};
-    private BroadcastReceiver endReceiver;
 
 
     @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)

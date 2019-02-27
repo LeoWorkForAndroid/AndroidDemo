@@ -8,6 +8,10 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/CallKit" />
+            <option value="$PROJECT_DIR$/CallLib" />
+            <option value="$PROJECT_DIR$/IMKit" />
+            <option value="$PROJECT_DIR$/IMLib" />
             <option value="$PROJECT_DIR$/JavaBase" />
             <option value="$PROJECT_DIR$/MaterialDesign" />
             <option value="$PROJECT_DIR$/MediaRecorder" />
@@ -16,6 +20,7 @@
             <option value="$PROJECT_DIR$/SocketClient" />
             <option value="$PROJECT_DIR$/SocketServer" />
             <option value="$PROJECT_DIR$/ThreadPoolExecutor" />
+            <option value="$PROJECT_DIR$/avintercom" />
             <option value="$PROJECT_DIR$/databinding" />
             <option value="$PROJECT_DIR$/mvp" />
             <option value="$PROJECT_DIR$/mvvp" />
